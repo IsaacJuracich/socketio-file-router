@@ -77,8 +77,7 @@ init();
 
 ## **Middleware**
 
-You are able to add route specific middlewares by exporting an array like this:
-**Example**
+You are able to add route specific middlewares by exporting an array like this
 
 ```js
 import { RequestHandler } from "socketio-file-router";
