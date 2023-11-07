@@ -14,6 +14,14 @@ describe("File Router", () => {
   });
 
   it("Socket Emit", (done) => {
+    socket.emit("/post", { message: "Hello World" });
+
+    socket.emit("/get", { message: "Hello World" });
+
+    socket.emit("/dynamic/param/testing", { message: "Hello World" });
+
+    socket.emit("/dynamic/slug/lydia/is/the/goat", { message: "Hello World" });
+
     socket.emit("/user", {
       userID: "1234",
     });
