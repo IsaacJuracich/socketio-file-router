@@ -1,6 +1,6 @@
 import { createServer } from "http";
 import { Server } from "socket.io";
-import FileRouter from "../../dist/cjs";
+import FileRouter from "socketio-file-router";
 
 async function init(): Promise<void> {
   process.on("uncaughtException", (err) => {

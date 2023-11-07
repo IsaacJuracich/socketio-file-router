@@ -1,4 +1,4 @@
-import { RequestHandler } from "../../../../../dist/cjs/index";
+import { RequestHandler } from "socketio-file-router";
 
 export const post: RequestHandler = async (socket, params, args) => {
   const { slug } = params as { slug: string };

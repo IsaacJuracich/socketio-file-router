@@ -37,6 +37,7 @@
     "redis": "^4.6.10",
     "socket.io": "^4.7.2",
     "socket.io-client": "^4.6.1",
+    "socketio-file-router": "^1.0.0",
     "text-encoding": "^0.7.0",
     "ts-mocha": "^10.0.0",
     "ts-node": "^10.9.1",
