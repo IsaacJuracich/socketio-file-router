@@ -1,0 +1,48 @@
+{
+  "name": "socketio-file-router",
+  "version": "1.0.0",
+  "description": "An express router that allows you to use the file system to create routes.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "test": "node --loader ts-node/esm ./node_modules/mocha/bin/mocha --extension ts tests/index.ts",
+    "build": "tsc && tsc --module commonjs --outDir dist/cjs"
+  },
+  "keywords": [
+    "router",
+    "file",
+    "filesystem",
+    "fs",
+    "route",
+    "routes",
+    "typescript",
+    "socket.io"
+  ],
+  "author": "Isaac Juracich",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/chai": "^4.3.9",
+    "@types/cors": "^2.8.15",
+    "@types/express": "^4.17.20",
+    "@types/mocha": "^10.0.3",
+    "body-parser": "^1.20.2",
+    "chai": "^4.3.10",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "http": "^0.0.1-security",
+    "mocha": "^10.2.0",
+    "moment": "^2.29.4",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "tslib": "^2.6.2"
+  }
+}
