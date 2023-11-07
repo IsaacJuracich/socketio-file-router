@@ -21,7 +21,7 @@ await FileRouter(
 );
 ```
 
-[Example Express Setup](https://github.com/IsaacJuracich/socketio-file-router/tree/main/example)
+[Example Setup](https://github.com/IsaacJuracich/socketio-file-router/tree/main/example)
 
 ```js
 import { createServer } from "http";
@@ -72,6 +72,7 @@ init();
             └── [...slug].ts // get all
     └── user
         ├── index.ts // user
+    └── post.ts
 ```
 
 ## **Middleware**
